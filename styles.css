@@ -1,0 +1,121 @@
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto, 16px;
+    height: 100vh;
+    background: #799BCE;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.4rem;
+    color: #516AAC;
+    text-transform: uppercase;
+
+}
+
+p{
+    font-size: 16px;
+    font-weight: 350px;
+    color: #A4A3A7;
+    line-height: 24px;
+}
+
+.grid-container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    height: auto;
+    background: #fff;
+    margin: 50px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+}
+
+.boxes{
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    padding: 8px;
+    margin: 16px;
+}
+
+.icon{
+    width: 80px;
+    padding: 16px;
+}
+
+.gridchild1{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.gridchild2{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.gridchild3{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.price{
+    padding: 16px;
+    color: #516AAC;
+
+}
+
+.price sup{
+    float: top;
+}
+
+.price span{
+    font-size: 40px;
+
+}
+
+.price sub{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+    .grid-container{
+        align-items: center;
+        display: grid;
+        word-wrap: normal;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+        background: #fff;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+        -moz-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+        box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.4);
+    
+
+    }
+    
+    .boxes{
+        
+        height: auto;
+        margin: 16px;
+    }
+  
+
+}
