@@ -119,3 +119,8 @@ p{
   
 
 }
+
+#colorbg:hover {
+        background-color: rgba(228, 228, 228, 0.575);
+
+}
